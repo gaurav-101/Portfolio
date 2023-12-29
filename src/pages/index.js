@@ -37,7 +37,8 @@ export default function Home() {
                             <Image
                                 src={profilePic}
                                 alt="Forerunner's generated profile pic"
-                                className="w-auto h-auto m-auto rounded-full shadow-2xl lg:inline-block lg:w-full"
+                                className="w-auto h-auto m-auto rounded-full shadow-2xl lg:inline-block lg:w-full lg:hidden md:inline-block md:w-full"
+                                
                                 priority
                                 sizes="(max-width:768px) 100vw, (max-width:1200px) 50vw, 50vw"
                             />
@@ -77,7 +78,7 @@ export default function Home() {
                     </div>
                 </Layout>
                 <HireMe />
-                <div className="absolute right-8 bottom-8 inline-block w-24">
+                <div className="absolute right-8 bottom-8 inline-block w-24 md:hidden">
                     <Image src={lightBulb} alt="Gaurav" className="w-full h-auto"/>
                 </div>
             </main>
