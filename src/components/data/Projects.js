@@ -32,11 +32,10 @@ export const projects = {
             address: "India",
             work: "Worked in front-end team and helped in debugging and development of dynamic and responsive website using HTML, CSS, JavaScript..",
         },
-        
     ],
     personnalProjects: [
         {
-            name: "Alex Shop - Site ecommerce",
+            name: "5Star Movie Rating",
             img: AlexShopEcommerce,
             live_demo_url: "https://alex-shop-blue.vercel.app/",
             gitHub_url: "https://github.com/Forerunner78/alex-shop",
