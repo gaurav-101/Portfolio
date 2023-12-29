@@ -50,7 +50,7 @@ const about = () => {
               </h2>
 
               <p className="font-medium dark:text-light">
-                Hi, I&apos;m CodeBucks, a web developer and UI/UX designer with
+                Hi, I&apos;m Gaurav, a web developer and UI/UX designer with
                 a passion for creating beautiful, functional, and user-centered
                 digital experiences. With 4 years of experience in the field. I
                 am always looking for new and innovative ways to bring my

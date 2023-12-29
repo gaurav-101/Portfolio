@@ -128,7 +128,7 @@ const articles = () => {
                 img={article2}
               />
             </ul>
-            <h2 className="font-bold text-4xl w-full text-center my-16 mt-32">
+            <h2 className="font-bold text-4xl w-full text-center my-16 mt-32 dark:text-light">
               All Articles
             </h2>
             <ul>
