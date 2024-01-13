@@ -7,6 +7,7 @@ import Shiny from "./../../img/Shiny.jpg";
 import Portfolio from "./../../img/Portfolio.jpg";
 import WorkInProgress from "./../../img/WorkInProgress.jpg";
 import AlexShopEcommerce from "./../../img/Alex_Shop_Ecommerce.jpg";
+import abc from "./../../img/abc.jpg";
 
 export const projects = {
     collaborations: [
@@ -35,9 +36,19 @@ export const projects = {
     ],
     personnalProjects: [
         {
+            name: "G.Ed. Tech.",
+            img: abc,
+            live_demo_url: "https://star-movie-rating.vercel.app/",
+            gitHub_url: "https://github.com/gaurav-101/gedtech",
+            technologies: ["#Redux", "#mongoDB", "#razorpay"],
+            colSize: 12,
+            summary:
+                "Developed a scalable educational platform, GEd.Tech., on the MERN stack (MongoDB, ExpressJS, ReactJS, Redux, NodeJS) for enhanced learning experiences. Developed user-friendly interfaces, including features like course creation, checkout flow with Razorpay payment gateway integration, and cloud-based media management.",
+        },
+        {
             name: "5Star Movie Rating",
             img: AlexShopEcommerce,
-            live_demo_url: "https://github.com/gaurav-101/movie-review",
+            live_demo_url: "https://star-movie-rating.vercel.app/",
             gitHub_url: "https://github.com/gaurav-101/movie-review",
             technologies: ["#nextJS", "#mongoDB", "#paypal"],
             colSize: 12,
