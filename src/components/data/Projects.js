@@ -38,7 +38,7 @@ export const projects = {
         {
             name: "G.Ed. Tech.",
             img: abc,
-            live_demo_url: "https://star-movie-rating.vercel.app/",
+            live_demo_url: "https://gaurav-edtech.vercel.app/",
             gitHub_url: "https://github.com/gaurav-101/gedtech",
             technologies: ["#Redux", "#mongoDB", "#razorpay"],
             colSize: 12,
